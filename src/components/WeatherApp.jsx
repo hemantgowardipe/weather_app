@@ -484,7 +484,7 @@ const WeatherApp = () => {
         {!weather && !error && !loading && (
           <div className="bg-gradient-to-br from-white/15 to-white/5 backdrop-blur-xl rounded-3xl p-12 text-center border border-white/20 shadow-2xl">
             <div className="text-8xl mb-6 animate-bounce">🌤️</div>
-            <h3 className="text-2xl font-bold text-white mb-4 bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
               Welcome to WeatherPro
             </h3>
             <p className="text-blue-200/80 max-w-md mx-auto font-medium leading-relaxed">
